@@ -18,7 +18,7 @@ echo "Database: " . ($db ?: 'Not set') . "<br><br>";
 
 // Create connection with timeout
 $conn = mysqli_init();
-$conn->options(MYSQLI_OPT_CONNECT_TIMEOUT, 5); // 5 seconds timeout
+$conn->options(MYSQLI_OPT_CONNECT_TIMEOUT, 30); // 5 seconds timeout
 
 try {
     $conn->real_connect($host, $user, $pass, $db);
