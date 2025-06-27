@@ -7,6 +7,12 @@ $user = getenv('DB_USER');
 $pass = getenv('DB_PASSWORD');
 $db   = getenv('DB_NAME');
 
+echo "<h3>Database Connection Details:</h3>";
+echo "Host: " . ($host ?: 'Not set') . "<br>";
+echo "User: " . ($user ?: 'Not set') . "<br>";
+echo "Password: " . ($pass ? str_repeat('*', strlen($pass)) : 'Not set') . "<br>";
+echo "Database: " . ($db ?: 'Not set') . "<br><br>";
+
 // Optional: Show what variables are being used (for debugging)
 // echo "Host: $host, User: $user, DB: $db<br>";
 
