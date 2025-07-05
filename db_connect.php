@@ -1,8 +1,9 @@
 <?php
-$host = getenv('DB_HOST');
-$user = getenv('DB_USER');
-$pass = getenv('DB_PASSWORD');
-$db = getenv('DB_NAME');
+$host = 'localhost';
+$user = 'root';
+$pass = 'marasigan';
+$db = 'ecommerce';
+
 
 // Create database connection
 $conn = new mysqli($host, $user, $pass, $db);
