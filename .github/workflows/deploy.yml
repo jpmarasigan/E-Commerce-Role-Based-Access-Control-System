@@ -14,7 +14,7 @@ jobs:
 
       - name: Run unit tests
         run: |
-          echo "Run your test here"
+          echo "Sample test"
 
       - name: SSH Deploy to EC2
         uses: appleboy/ssh-action@v1.0.0
