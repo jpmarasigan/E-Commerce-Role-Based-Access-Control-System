@@ -21,7 +21,7 @@ include 'retrieve_record.php';
         <div id="login">
             <div class="login-form-container">
                 <form id="LoginForm" method="post" action="">
-                    <h1>Login<h1>
+                    <h1>Log in<h1>
                     <div class="block-label-input mg-bottom-60 text-left">
                         <label for="email-login">Email</label> 
                         <input type="text" id="email-login" class="underline-input" required>        
