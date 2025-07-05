@@ -1,14 +1,25 @@
 <?php
-echo "PHP is working";
-// $host = 'localhost';
-// $user = 'root';
-// $pass = 'marasigan';
-// $db = 'ecommerce';
+// Display all PHP errors (for development only)
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
+// Database credentials
+$host = 'localhost';
+$user = 'root';
+$pass = 'marasigan';
+$db   = 'ecommerce';
 
-// // Create database connection
-// $conn = new mysqli($host, $user, $pass, $db);
-// if ($conn->connect_error) {
-//     die("Connection failed: ".$conn->connect_error);
-// }
+// Create connection
+$conn = new mysqli($host, $user, $pass, $db);
+
+// Check connection
+if ($conn->connect_error) {
+    echo "<strong>Database connection failed:</strong> " . htmlspecialchars($conn->connect_error);
+} else {
+    echo "✅ Connected to database successfully.";
+}
+
+// Optional: close connection when done
+// $conn->close();
 ?>
