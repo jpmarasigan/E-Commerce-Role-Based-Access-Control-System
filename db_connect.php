@@ -5,7 +5,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 // Database credentials
-$host = 'localhost';
+$host = 'database-1.cj08280awhz9.ap-southeast-1.rds.amazonaws.com';
 $user = 'root';
 $pass = 'marasigan';
 $db   = 'ecommerce';
