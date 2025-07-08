@@ -34,4 +34,4 @@ The application features a **Dashboard** for Admin users, where various metrics 
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/e-commerce-rbac-system.git
+   git clone https://github.com/jpmarasigan/E-Commerce-Role-Based-Access-Control-System.git
