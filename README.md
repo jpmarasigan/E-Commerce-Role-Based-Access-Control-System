@@ -9,17 +9,17 @@ The application features a **Dashboard** for Admin users, where various metrics 
 ## Features
 
 - **Admin Features**:
-  - Manage products: Add, update, delete product information.
-  - Manage users: Create, edit, or delete user accounts.
-  - Manage orders: View and manage customer orders.
-  - **Dashboard**: Visual representation of overall user's data.
+  - Manage products: Add, update, delete product information
+  - Manage users: Create, edit, or delete user accounts
+  - Manage orders: View and manage customer orders
+  - **Dashboard**: Visual representation of overall user's data
 
 - **User Features**:
-  - Browse and view products.
-  - Place orders.
-  - View order history.
-  - View order status.
-  - View and Update Personal Information.
+  - Browse and view products
+  - Place orders
+  - View order history
+  - View order status
+  - View and Update Personal Information
 
 - **Authentication**: Secure login and session management for Admin and User roles.
 
@@ -27,8 +27,8 @@ The application features a **Dashboard** for Admin users, where various metrics 
 
 ### Prerequisites
 
-- XAMPP or any local development environment with PHP and MySQL support.
-- A web browser (e.g., Chrome, Firefox).
+- XAMPP or any local development environment with PHP and MySQL support
+- A web browser (e.g., Chrome, Firefox)
   
 ### Steps to Set Up
 
